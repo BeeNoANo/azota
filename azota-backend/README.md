@@ -1,120 +1,84 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+📚 Online Exam Management Platform
+📌 Introduction
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Online Exam Management Platform là một hệ thống web hỗ trợ giáo viên và tổ chức giáo dục trong việc:
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+📝 Tạo và quản lý đề thi
 
-## Description
+📊 Theo dõi kết quả và hiệu suất học tập của học sinh
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+🎯 Cung cấp báo cáo và thống kê trực quan
 
-## Project setup
+💬 Tương tác và thông báo thời gian thực
 
-```bash
-$ npm install
-```
+Mục tiêu dự án là mang lại một nền tảng hiện đại, bảo mật, và thân thiện với người dùng.
 
-## Compile and run the project
+🛠 Technology Stack
+🖥 Backend
 
-```bash
-# development
-$ npm run start
+Framework: NestJS
 
-# watch mode
-$ npm run start:dev
+ORM: TypeORM
 
-# production mode
-$ npm run start:prod
-```
+🖥 Frontend
 
-## Run tests
+Framework: React + TypeScript
 
-```bash
-# unit tests
-$ npm run test
+UI: Tailwind CSS
 
-# e2e tests
-$ npm run test:e2e
+🗄 Database
 
-# test coverage
-$ npm run test:cov
-```
+Relational DB: MySQL
 
-## Deployment
+NoSQL DB: MongoDB Atlas
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+⚡ Caching
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+Caching Layer: Redis
 
-```bash
-$ npm install -g mau
-$ mau deploy
-```
+📂 Storage
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+File & Media Storage: Firebase Storage
 
-## Resources
+🔔 Real-time
 
-Check out a few resources that may come in handy when working with NestJS:
+WebSocket: Socket.IO
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+🔑 Authentication
 
-## Support
+Method: JWT
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+🐳 Deployment
 
-## Stay in touch
+Containerization: Docker
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+🔥 Key Features
+🔑 User Authentication
 
-## License
+✅ Đăng ký và đăng nhập bảo mật cao với JWT
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+✅ Hỗ trợ khôi phục mật khẩu
 
-Docker
-docker run -d --name azota-backend --network azota-network -e DB_HOST=db-mysql -e DB_PORT=3306 -e DB_USER=root -e DB_PASSWORD=root -e DB_NAME=azota -e REDIS_HOST=redis -e REDIS_PORT=6379 -p 3000:3000 azota-backend
+📝 Exam & Question Management
 
-## Database Seeding
+✅ Tạo, chỉnh sửa, xóa bài thi và ngân hàng câu hỏi
 
-The application includes a comprehensive seeder system that populates the database with initial data:
+✅ Quản lý nội dung học tập, tài liệu, đề cương
 
-```bash
-# Run the seeder
-$ npm run seed
-```
+📊 Statistics & Reports
 
-This will create:
+✅ Thống kê kết quả thi theo từng học sinh, lớp, hoặc kỳ thi
 
-- Grades (Lớp 1-12)
-- Subjects (Toán học, Ngữ văn, Tiếng Anh, etc.)
-- Sample schools, teachers, and students
-- Default users with credentials
+✅ Biểu đồ phân tích hiệu suất học tập
 
-For more information, see [src/modules/database/seeder/README.md](src/modules/database/seeder/README.md).
+📢 Real-time Communication
+
+✅ Thông báo thời gian thực qua WebSocket
+
+✅ Cập nhật trạng thái thi, kết quả, và tin nhắn nhanh chóng
+
+📂 Content Storage
+
+✅ Lưu trữ tài liệu và hình ảnh trên Firebase Storage
+
+✅ Quản lý tài nguyên tập trung
