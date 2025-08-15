@@ -1,84 +1,107 @@
-📚 Online Exam Management Platform
-📌 Introduction
+# 📚 Online Exam Management Platform
 
-Online Exam Management Platform là một hệ thống web hỗ trợ giáo viên và tổ chức giáo dục trong việc:
+## 📌 Introduction
+**Online Exam Management Platform** là một hệ thống web hỗ trợ giáo viên và tổ chức giáo dục trong việc:
 
-📝 Tạo và quản lý đề thi
+- 📝 Tạo và quản lý đề thi  
+- 📊 Theo dõi kết quả và hiệu suất học tập của học sinh  
+- 🎯 Cung cấp báo cáo và thống kê trực quan  
+- 💬 Tương tác và thông báo thời gian thực  
 
-📊 Theo dõi kết quả và hiệu suất học tập của học sinh
+Mục tiêu dự án là mang lại một nền tảng **hiện đại**, **bảo mật**, và **thân thiện với người dùng**.
 
-🎯 Cung cấp báo cáo và thống kê trực quan
+---
 
-💬 Tương tác và thông báo thời gian thực
+## 🛠 Technology Stack
 
-Mục tiêu dự án là mang lại một nền tảng hiện đại, bảo mật, và thân thiện với người dùng.
+### 🖥 Backend
+- **Framework:** NestJS  
+- **ORM:** TypeORM  
 
-🛠 Technology Stack
-🖥 Backend
+### 🎨 Frontend
+- **Framework:** React + TypeScript  
+- **UI:** Tailwind CSS  
 
-Framework: NestJS
+### 🗄 Database
+- **Relational DB:** MySQL  
+- **NoSQL DB:** MongoDB Atlas  
 
-ORM: TypeORM
+### ⚡ Caching
+- **Caching Layer:** Redis  
 
-🖥 Frontend
+### 📂 Storage
+- **File & Media Storage:** Firebase Storage  
 
-Framework: React + TypeScript
+### 🔔 Real-time
+- **WebSocket:** Socket.IO  
 
-UI: Tailwind CSS
+### 🔑 Authentication
+- **Method:** JWT  
 
-🗄 Database
+### 🐳 Deployment
+- **Containerization:** Docker  
 
-Relational DB: MySQL
+---
 
-NoSQL DB: MongoDB Atlas
+## 🔥 Key Features
 
-⚡ Caching
+### 🔑 User Authentication
+- ✅ Đăng ký và đăng nhập bảo mật cao với JWT  
+- ✅ Hỗ trợ khôi phục mật khẩu  
 
-Caching Layer: Redis
+### 📝 Exam & Question Management
+- ✅ Tạo, chỉnh sửa, xóa bài thi và ngân hàng câu hỏi  
+- ✅ Quản lý nội dung học tập, tài liệu, đề cương  
 
-📂 Storage
+### 📊 Statistics & Reports
+- ✅ Thống kê kết quả thi theo từng học sinh, lớp, hoặc kỳ thi  
+- ✅ Biểu đồ phân tích hiệu suất học tập  
 
-File & Media Storage: Firebase Storage
+### 📢 Real-time Communication
+- ✅ Thông báo thời gian thực qua WebSocket  
+- ✅ Cập nhật trạng thái thi, kết quả, và tin nhắn nhanh chóng  
 
-🔔 Real-time
+### 📂 Content Storage
+- ✅ Lưu trữ tài liệu và hình ảnh trên Firebase Storage  
+- ✅ Quản lý tài nguyên tập trung  
 
-WebSocket: Socket.IO
+---
 
-🔑 Authentication
+## 🏗 Architecture
+Dự án được tách thành **Front-end** và **Back-end** riêng biệt.
 
-Method: JWT
+**🎨 Front-end**  
+- React + TypeScript  
+- Tailwind CSS  
 
-🐳 Deployment
+**⚙️ Back-end**  
+- NestJS  
+- TypeORM + MySQL  
+- Redis  
+- MongoDB Atlas  
+- Firebase Storage  
+- WebSocket (Socket.IO)  
+- JWT  
+- Docker  
 
-Containerization: Docker
+---
 
-🔥 Key Features
-🔑 User Authentication
+## 🚀 Installation Guide
 
-✅ Đăng ký và đăng nhập bảo mật cao với JWT
+### 📌 Requirements
+- Node.js (>= 14)  
+- NPM hoặc Yarn  
+- MySQL, Redis, Docker (nếu chạy container)  
 
-✅ Hỗ trợ khôi phục mật khẩu
+### 📥 Steps
+```bash
+# Clone repository
+git clone https://github.com/your_username/online-exam-platform.git
 
-📝 Exam & Question Management
+# Di chuyển vào thư mục dự án
+cd online-exam-platform
 
-✅ Tạo, chỉnh sửa, xóa bài thi và ngân hàng câu hỏi
-
-✅ Quản lý nội dung học tập, tài liệu, đề cương
-
-📊 Statistics & Reports
-
-✅ Thống kê kết quả thi theo từng học sinh, lớp, hoặc kỳ thi
-
-✅ Biểu đồ phân tích hiệu suất học tập
-
-📢 Real-time Communication
-
-✅ Thông báo thời gian thực qua WebSocket
-
-✅ Cập nhật trạng thái thi, kết quả, và tin nhắn nhanh chóng
-
-📂 Content Storage
-
-✅ Lưu trữ tài liệu và hình ảnh trên Firebase Storage
-
-✅ Quản lý tài nguyên tập trung
+# Cài dependencies
+npm install
+# hoặc
+yarn install
