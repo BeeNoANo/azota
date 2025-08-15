@@ -19,7 +19,7 @@ Mục tiêu dự án là mang lại một nền tảng **hiện đại**, **bả
 - **ORM:** TypeORM  
 
 ### 🎨 Frontend
-- **Framework:** React + TypeScript  
+- **Framework:** Nextjs + TypeScript  
 - **UI:** Tailwind CSS  
 
 ### 🗄 Database
@@ -71,7 +71,7 @@ Mục tiêu dự án là mang lại một nền tảng **hiện đại**, **bả
 Dự án được tách thành **Front-end** và **Back-end** riêng biệt.
 
 **🎨 Front-end**  
-- React + TypeScript  
+- Nextjs + TypeScript  
 - Tailwind CSS  
 
 **⚙️ Back-end**  
