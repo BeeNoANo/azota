@@ -70,5 +70,8 @@ export const typeormConfig: TypeOrmModuleOptions = {
   ],
   // logger: "advanced-console",
   // logging: "all",
+  ssl: {
+    rejectUnauthorized: false, 
+  },
   synchronize: true,
 };
