@@ -7,12 +7,7 @@ import * as cookieParser from "cookie-parser";
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
-    origin: [
-      "https://main.d3fg8uvj1v7dny.amplifyapp.com",
-      "http://localhost:3000",
-      "https://azota-murex.vercel.app", // <--- Thêm link Vercel của bạn vào đây
-      process.env.FRONTEND_URL,         // <--- Thêm dòng này để linh hoạt
-    ],
+    origin: true, // <--- Cho phép TẤT CẢ các trang web kết nối (Vercel, Localhost, v.v...)
     credentials: true,
   });
   app.use(cookieParser());
